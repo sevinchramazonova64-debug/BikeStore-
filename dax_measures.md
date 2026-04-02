@@ -1,8 +1,8 @@
+Key Metrics and Insights – Power BI Dashboard
 1. Total Revenue
 
-Definition: Calculates the total revenue generated from all sales transactions.
-
-DAX Example:
+Definition: Calculates the total revenue from all sales transactions.
+DAX Formula:
 
 Total Revenue = 
 SUMX(
@@ -17,8 +17,7 @@ Helps evaluate revenue trends and business growth.
 2. Total Orders
 
 Definition: Counts the total number of orders placed.
-
-DAX Example:
+DAX Formula:
 
 Total Orders = COUNT(orders[order_id])
 
@@ -29,8 +28,7 @@ Useful for identifying peak sales periods.
 3. Total Customers
 
 Definition: Counts the number of unique customers.
-
-DAX Example:
+DAX Formula:
 
 Total Customers = DISTINCTCOUNT(customers[customer_id])
 
@@ -41,8 +39,7 @@ Helps track customer growth and acquisition.
 4. Avg Order Value
 
 Definition: Calculates the average revenue per order.
-
-DAX Example:
+DAX Formula:
 
 Avg Order Value = DIVIDE([Total Revenue], [Total Orders])
 
@@ -52,9 +49,8 @@ Measures average spend per order.
 Useful for pricing strategies and upselling.
 5. Category Share %
 
-Definition: Calculates the percentage contribution of each category to total revenue.
-
-DAX Example:
+Definition: Calculates each category’s contribution to total revenue.
+DAX Formula:
 
 Category Share % = 
 DIVIDE(
@@ -64,13 +60,12 @@ DIVIDE(
 
 Insight:
 
-Shows which categories contribute most to total revenue.
-Helps identify high-performing product segments.
+Shows top-performing categories.
+Helps identify focus areas for growth.
 6. Top 5 Products (by Sales Amount)
 
-Definition: Shows the top 5 products with the highest total sales amount.
-
-DAX Example:
+Definition: Shows the top 5 products generating the highest sales.
+DAX Formula:
 
 Top 5 Products = 
 CONCATENATEX(
@@ -81,13 +76,12 @@ CONCATENATEX(
 
 Insight:
 
-Helps identify which products generate the most revenue.
-Useful for inventory planning, promotions, and marketing focus.
+Highlights best-selling products.
+Useful for inventory planning, marketing, and promotions.
 7. Total Sales CY (Current Year)
 
-Definition: Calculates the total sales amount for the current year.
-
-DAX Example:
+Definition: Calculates total sales for the current year.
+DAX Formula:
 
 Total Sales CY = 
 CALCULATE(
@@ -97,5 +91,5 @@ CALCULATE(
 
 Insight:
 
-Shows total revenue generated in the current year.
-Helps track yearly performance and compare against previous years or targets.
+Tracks yearly revenue performance.
+Enables comparison with previous years or targets.
