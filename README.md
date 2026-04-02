@@ -20,4 +20,5 @@ This interactive dashboard enables stakeholders to identify high-performing prod
 
 
 
-<img width="1341" height="743" alt="image" src="https://github.com/user-attachments/assets/12ec7cd5-59c2-4ffe-b055-a88ae2cbc228" />
+<img width="1327" height="741" alt="image" src="https://github.com/user-attachments/assets/77de6aa8-c320-442f-8ed1-fa6f4e7fb744" />
+
