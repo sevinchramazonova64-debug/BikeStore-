@@ -1,6 +1,5 @@
 # BikeStore
-📊 Sales Performance Dashboard
-🧾 Project Overview
+Sales Performance Dashboard
 
 This Sales Performance Dashboard provides a comprehensive analysis of sales operations, customer behavior, and product performance.
 
@@ -8,8 +7,7 @@ The dashboard monitors key metrics such as total sales, total orders, total quan
 Additionally, the report evaluates monthly growth trends, year-over-year (YoY) performance, and discount impact on revenue. Customer purchasing patterns and top-performing products are also highlighted.
 
 This interactive dashboard enables stakeholders to identify high-performing products, evaluate sales team performance, understand customer behavior, and support data-driven business decisions.
-
-⚙️ Technologies Used
+Technologies Used
 Power BI
 DAX
 CSV Data
