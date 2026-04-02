@@ -11,14 +11,6 @@ This interactive dashboard enables stakeholders to identify high-performing prod
 
 ---
 
-## Dashboard Preview
-
-<p align="center">
-  <img src="dashboard.png" width="800"/>
-</p>
-
----
-
 ## Technologies Used
 
 * Power BI
