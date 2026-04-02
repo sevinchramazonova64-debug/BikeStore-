@@ -14,4 +14,7 @@ Power BI
 DAX
 CSV Data
 Data Modeling
+
+
+
 <img width="1341" height="743" alt="image" src="https://github.com/user-attachments/assets/12ec7cd5-59c2-4ffe-b055-a88ae2cbc228" />
